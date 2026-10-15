@@ -44,6 +44,10 @@
       letter-spacing: .04em;
       line-height: 1.1;
     }
+    .logo {
+      width: min(190px, 55vw); height: auto; display: block; margin: 0 auto 18px;
+      border-radius: 12px; object-fit: contain;
+    }
     .tamil { color: var(--gold); font-size: 1.2rem; margin: 12px 0 4px; }
     .tagline { color: var(--muted); margin: 8px 0 0; }
     .contact { margin-top: 18px; color: var(--muted); font: .95rem Arial, sans-serif; }
@@ -97,6 +101,7 @@
 </head>
 <body>
   <header class="hero">
+    <img class="logo" src="muthamizh-logo.png" alt="Muthamizh Restaurant logo">
     <div class="eyebrow">Welcome to</div>
     <h1>MUTHAMIZH</h1>
     <div class="tamil">முத்தமிழ் உணவகம்</div>
@@ -224,13 +229,15 @@
 
     <p class="empty" id="noResults">No matching dishes found. Try another search.</p>
     <div class="actions">
-      <a class="button" href="tel:+916369689798">Call to Order</a>
+      <a class="button" href="https://wa.me/916369689798?text=Hello%20Muthamizh%20Restaurant%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp</a>
+      <a class="button secondary" href="https://www.google.com/search?q=Muthamizh+Restaurant+Punjaipuliampatti+Google+reviews" target="_blank" rel="noopener">Google Reviews</a>
+      <a class="button secondary" href="tel:+916369689798">Call to Order</a>
       <a class="button secondary" href="https://www.instagram.com/muthamizh_restaurant/" target="_blank" rel="noopener">Follow on Instagram</a>
     </div>
   </main>
 
   <footer>
-    Your Opinion = Our Motivation · Thank you for visiting Muthamizh Restaurant!
+    Your Opinion = Our Motivation · Please leave us a Google review. Thank you for visiting Muthamizh Restaurant!
   </footer>
 
   <script>
